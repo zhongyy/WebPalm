@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>WebPalm Database</title>
+<style type="text/css">
+body,td,th {
+    font-size: 18px;
+}
+body {
+    border: 2px #fff solid;
+    border-radius: 4px;
+    margin-left: 30%;
+    margin-right: 30%;
+  background-color: #fff;
+  color: #666;
+}
+sidebar {
+width: 100%; 
+margin: 0;
+}
+ul.menu{
+list-style-type:none;
+margin:0; 
+padding:0; 
+}
+li.menu{
+  display:inline;
+padding:4%;
+}
+h1 {
+height: 1.5em;
+background-color: #fff;
+color: #000;
+width: 100%;
+}
+h2 {
+height: 1.5em;
+background-color: #fff;
+color: #06F;
+width: 100%;
+}
+pre {  
+font-size: 10pt;  
+background-color: #fffff4;  
+border: 1px solid #999;
+line-height: 15px; 
+}
+body,td,th {
+color: #000;
+}
+a:link {
+color: #06F;
+}
+</style>
+</head>
+
+
+<body>
+<SCRIPT   LANGUAGE="JavaScript">       
+function   fresh()  
+{  
+if(location.href.indexOf("?reload=true")<0)
+  {
+  location.href+="?reload=true";  
+  }  
+}  
+setTimeout("fresh()",50)
+</SCRIPT>
+<div id="content-inner">        
+<div class="header">
+<div class="page-title"><h1><center> WebPalm Database</center></h1></div>
+</div><br />
+  
+<div id='sidebar'>
+<h2><b>Menu</b></h2>
+<!--center-->
+<center>	
+<ul class="menu">
+<li class="menu"><a href="#Description">Description</a></li>
+<li class="menu"><a href="#Download">Download</a></li>
+<li class="menu"><a href="#Reference">Reference</a></li>
+<li class="menu"><a href="#Contact">Contact</a></li>
+</ul><!--/center-->
+</center>
+</div>	
+    
+<div class="section details">
+<dl>
+<a id="Description"></a> 
+<dt><h2>Description of WebPalm<br></h2></dt>
+<dd>
+
+<p> WebPalm is a large-scale public dataset for contactless palmprint recognition. 
+This dataset allows us to assess the performance of palmprint recognition models with a minimal False Acceptance Rate (FAR) of 1e-9.
+</p>
+
+<p>
+  WebPalm consists of 83,145 palmprint images of 83,145 unique identities, collected from public internet resources. 
+  The dataset encompasses different acquisition devices, varied lighting conditions, and a range of user poses, therefore allowing for a realistic simulation of large-scale scenarios. 
+  We hope this dataset will serve as a valuable resource for the research community. 
+  The palmprints in the WebPalm database are shown as follows.</p>
+<div class="section pic">   
+<center>		  
+<img src="web.jpg" border="0" width="95%">  
+</center>  
+</div>
+</dd>	
+
+<a id="Download"></a>
+<div class="section Download">
+<dt><h2>Download the database</h2></dt>
+<dd>
+<dl>
+<dt>
+<p> For access to the WebPalm database, you will need to agree to our <b>terms of access</b>: </p>
+<dd> 
+<p> 1. The researcher shall use the Database only for non-commercial research and educational purposes.</p>
+<p> 2. All images of the WebPalm database are obtained from the Internet. Beijing University of Posts and Telecommunications (BUPT) makes no representations or warranties regarding the Database, including but not limited to warranties of non-infringement or fitness for a particular purpose. </p> 
+<p> 3. The researcher accepts full responsibility for his or her use of the Database and shall defend and indemnify the WebPalm team, and Beijing University of Posts and Telecommunications (BUPT), including their employees, Trustees, officers, and agents, against any and all claims arising from Researcher's use of the Database, including but not limited to Researcher's use of any copies of copyrighted images that he or she may create from the Database. </p> 
+<p> 4. The WebPalm team reserves the right to terminate the Researcher's access to the Database at any time.</p>
+</dd> 
+<p>  <b>Please send an <a href="mailto:zhongyaoyao@bupt.edu.cn">email</a> for this database. </b>
+    Your email MUST be set from a valid University account and MUST include the following text:</p>
+    <pre>
+  <b>Subject</b>: Application to download the WebPalm Database          
+  <b>Name</b>: &lt;your first and last name&gt;
+  <b>Affiliation</b>: &lt;University where you work&gt;
+  <b>Department</b>: &lt;your department&gt;
+  <b>Position</b>: &lt;your job title&gt;
+  <b>Email</b>: &lt;must be the email at the above mentioned institution&gt;<br />
+  I have read and agree to the terms and conditions specified in the WebPalm database webpage. 
+  This database will only be used for research purposes. 
+  I will not make any part of this database available to a third party. 
+  I'll not sell any part of this database or make any profit from its use.</pre>
+</dt>
+</div>
+</dl>
+</dd>
+<br />
+
+<a id="Reference"></a>
+<div class="section Reference">
+<dt><h2>Reference</h2></dt>
+<dd> 
+Please cite as:<br /><br />
+<br /><b><a href="https://arxiv.org/abs/2004.05790">Zhong, Yaoyao and Chai, Weilong and Wang, Libin and Zheng, Dandan and Fu, Huiyuan and Ma, Huadong, “RegPalm: Towards Large-Scale Palmprint Recognition by Reducing Pattern Variance”, 2024</a>.</b>
+<br />
+<br />BibTeX entry:
+<br /> 
+<pre>@article{zhong2024towards,
+author    = {Zhong, Yaoyao and Chai, Weilong and Wang, Libin and Zheng, Dandan and Fu, Huiyuan and Ma, Huadong},
+title     = {RegPalm: Towards Large-Scale Palmprint Recognition by Reducing Pattern Variance},
+year      = {2024},
+}
+</pre> 
+</div>
+<br />
+</dd>
+
+<a id="contact"></a>
+<div class="section Contact">
+<dt><h2>Contact</h2></dt>  
+<dd>Please contact <a href="mailto:zhongyaoyao@bupt.edu.cn">Yaoyao Zhong</a> and Huadong Ma for questions about the database.
+</div>
+</dd>
+<br />
+</dl>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body></html>
